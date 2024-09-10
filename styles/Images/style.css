@@ -249,7 +249,7 @@ nav ul li a{
     display: flex;
     justify-content: center;
     padding: 30px;
-    border: 2px solid green;
+    border: 2px solid black;
     border-radius: 3em;
     background-color: #f3f3f3;
     margin-top: 50px;
@@ -315,6 +315,11 @@ nav ul li a{
     .service-element-image img{
         width: 200px;
     }  
+}
+@media (max-width: 563px) {
+    .service-cards img{
+        width: 100%;
+    }   
 }
 
 /* End of Service Section */
