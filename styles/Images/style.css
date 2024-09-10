@@ -68,7 +68,7 @@ nav ul li a{
 
 .header-button a:hover{
     color: dimgray;
-    background-color: #333;
+    background-color: rgb(38, 245, 38);
     /* padding: 1px; */
 }
 /* End of Styling Header and Navigation Bar */
@@ -244,3 +244,77 @@ nav ul li a{
         width: 250px;
     }
 }
+
+.service-element{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border: 2px solid green;
+    border-radius: 3em;
+    background-color: #f3f3f3;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.service-element-text h4{
+    font-size: 2.5em;
+}
+
+.service-element-text a{
+    text-decoration: none;
+    color: white !important;
+    font-size: 20px;
+    padding: 13px 16px;
+    border-radius: 13px;
+    border: 1px solid #000000;
+    background-color: #0a0404;
+    width: 100%;
+}
+
+.service-element-text p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 22px;
+    width: 80%;
+}
+.service-element-image img{
+    width: 300px;
+    height: auto;
+}
+@media (max-width: 720px) {
+
+    .service-element-image img{
+        width: 220px;
+        height: auto;
+    } 
+
+}
+@media (max-width:643px) {
+    .service-element{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .service-element-text p,.service-element-text a{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .service-element-image img{
+        width: 250px;
+        height: auto;
+        padding-top: 30px;
+        align-items: center;
+    } 
+}
+@media (max-width: 378px) {
+    .service-element-text a{
+        font-size: 15px;
+        padding: 9px 10px;
+    }
+    .service-element-image img{
+        width: 200px;
+    }  
+}
+
+/* End of Service Section */
