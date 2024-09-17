@@ -212,6 +212,8 @@ nav ul li a{
 .service-header h4{
     font-size: 2em;
     /* line-height: 3rem; */
+    background-color: #b9ff66;
+    width: 4em;
 }
 
 .service-header p{
@@ -323,3 +325,69 @@ nav ul li a{
 }
 
 /* End of Service Section */
+
+.case-section{
+    width: 100%;
+    padding: 27px 2em;
+}
+
+.case-header{
+    width: 100%;
+}
+
+.case-header h3{
+    font-size: 2em;
+    /* line-height: 3rem; */
+    background-color: #b9ff66;
+    width: 6em;
+}
+
+.case-header p{
+    font-size: 28px;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.case-element{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 30px; */
+    background-color: black;
+    color: #fff;
+    padding: 3.5em 20px;
+    border-radius: 3em;
+   
+}
+.paragraph-1{
+    border-right: 1px solid #fff;
+    margin-left: 1em;
+    /* width: 100%; */
+    line-height: 20px;
+}
+.paragraph-2{
+    border-right: 1px solid #fff;
+    padding-left: 2em;
+    line-height: 20px;
+    width: 100%;
+}
+.paragraph-1b{
+    padding-left: 2em;
+    width: 100%;
+    line-height: 20px;
+}
+.case-element p{
+    font-size: 13px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+}
+
+.case-element a{
+    color: #b9ff66;
+    text-decoration: none;
+}
+.case-element a img{
+    width: 10px;
+}
+/* end of case studies styling */
