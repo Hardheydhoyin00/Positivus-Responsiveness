@@ -727,10 +727,7 @@ nav ul li a{
     }
     .elements-1-header-text h4, .elements-2-header-text h4, .elements-3-header-text h4, .elements-4-header-text h4, .elements-5-header-text h4, .elements-6-header-text h4{
         font-size: 17px;
-    }
-    .elements-1-header-image, .elements-2-header-image{
-        /* margin-: 19px; */
-    }
+    }    
     .elements-1-header-text, .elements-2-header-text, .elements-3-header-text, .elements-4-header-text, .elements-5-header-text, .elements-6-header-text{
         gap: 7px;
     }
@@ -744,5 +741,223 @@ nav ul li a{
     }
     .elements-3-header-text h4{
         font-size: 14px;
+    }
+}
+
+.team-section{
+    width: 100%;
+    padding: 27px 2em;
+}
+
+.team-section-header{
+    width: 100%;
+}
+
+.team-section-header h3{
+    font-size: 2em;
+    /* line-height: 3rem; */
+    background-color: #b9ff66;
+    width: 3em;
+}
+
+.team-section-header p{
+    font-size: 24px;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    /* width: 100%; */
+}
+
+.team-elements{
+    width: 100%; 
+    gap: 30px;
+    padding: 20px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.team-elements-1{
+    width: 100%;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 2em;
+    box-shadow: 0px 3px black;
+}
+
+.team-elements-header{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding: 10px 0;
+    border-bottom: 1px solid black ;
+
+}
+
+.team-header-2{
+    display: inline-flex;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+}
+.team-image-2{
+   float: right;
+}
+
+.team-text h4{
+    font-size: 25px;
+}
+.team-text h5{
+    font-size: 13px;
+}
+.team-elements-image{
+    padding: 7px;
+}
+
+@media (max-width: 1216px) {
+    .team-elements{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+@media (max-width: 826px) {
+    .team-elements{
+        display: grid;
+        grid-template-columns:1fr ;
+    }
+}
+@media (max-width: 400px) {
+    .team-elements-image img{
+        width: 75px;
+    }
+    .team-text h4{
+        font-size: 19px;
+    }
+    .team-image-2{
+        width: 24px;
+    }
+    .team-elements-1 p{
+        font-size: 13px;
+    }
+    .team-elements-1{
+        margin-right: -8px;
+    }
+}
+.team-button{
+    padding: 20px;
+    text-align: right;
+    width: 100%;
+}
+
+.team-button a{
+    color: white;
+    background-color: #000000;
+    border: none;
+    padding: 17px 45px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+/* end of team section */
+.contact-section{
+    width: 100%;
+    padding: 27px 2em;
+}
+
+.contact-header{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-header h3{
+    font-size: 2em;
+    /* line-height: 3rem; */
+    background-color: #b9ff66;
+    align-items: center;
+    width: fit-content;
+  
+}
+
+.contact-header p{
+    font-size: 28px;
+    line-height: 2rem;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.form{
+    width: 100%;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border: 1px solid #f3f3f3;
+    border-radius: 33px;
+    display: flex;
+    
+}
+
+.form-button{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.form-text{
+    width: 100%;
+    padding:0 20px;
+    align-items: left;
+}
+.form-inputs{
+    padding: 12px;
+}
+
+.form-inputs input{
+    width: 100%;
+    height: 60px;
+    padding:10px 10px;
+    border-radius: 12px;
+}
+
+.form .form-inputs label{
+    width: 100%;
+    padding: 13px 0px;
+    display: flex;
+}
+
+.form-inputs textarea{
+    border-radius: 20px;
+    padding: 10px 10px;
+    font-size:30px;
+    width: 100%;
+}
+
+.form-image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+.form-image img{
+    width: 100%;
+    height: auto;
+    max-width: none; 
+}
+.form-btn{
+    width: 100%;
+    gap: 10px;
+    border-radius: 12px;
+    padding: 16px 35px;
+    background-color: #000000;
+}
+.form-btn a{
+    color: white;
+    border: none;
+    text-decoration: none;
+    
+}
+@media (max-width: 768px) {
+    .form-image{
+        display: none; 
     }
 }
